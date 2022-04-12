@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<script src="https://kit.fontawesome.com/0bc9db981c.js" crossorigin="anonymous"></script>
+    <title>Vintage Studio | Wooden Chair</title>
+</head>
+<body>
+    <header>
+        <a class="logo-container" href="#"><img class="logo-small" src="/images/logo-small.png" alt="Vintage Studio logo"></a>
+        <nav class="nav-container">
+            <ul>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Stores</a></li>
+                <li><a href="">Our story</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="login-container">
+            <p><a href="#">Login</a></p>
+            <i class="fas fa-store-alt" id="shop-icon"></i>
+        </div>
+        <div class="search-bar">
+            <input type="text">
+            <i class="fas fa-search"></i>
+        </div>
+    </header>
+    <main>
+        <section class="main-container">
+            <div class="picture-container">
+                <div class="image-product-container">
+                    <img src="/images/wooden-table.jpg" alt="Wooden table">
+                    <div class="picture-description-container">
+                        <p>Designed by <b>Thomas Jonas</b></p>
+                        <article class="review-container">
+                            <i class="fas fa-star"></i>
+                            <p><b>4.5 </b>(89 reviews)</p>
+                        </article>
+                        <p>"Made for your comfort"</p>
+                    </div>
+                </div>
+            </div>
+            <article class="side-info-container">
+                <div class="main-info-container">
+                    <h2><b>Divo Natural Oak</b></h2>
+                    <p>Side Table</p>
+                    <p>Item code: 597830</p>
+                </div>
+                <div class="description-container">
+                    <p class="title-description">DESCRIPTION</p>
+                    <p class="main-description">Wake up to the timeless beauty of Divo Natural Oak bedroom furniture. Each piece is exquisitely designed and handcrafted from solid oak with oak veneers, finished with a clear matt lacquer. This brings out the unique natural variations in the grain. Finished to the high standards you'd expect from VS.
+                    </p>
+                </div>
+                <article>
+                    <p class="product-price">USD $499 <b>Duty-free</b></p>
+                    <p class="price-caption">* This price does not include the value of shipping or assembly service.</p>
+                </article>
+                <article class="calculator-container">
+                    <p class="promo-container">Use a 15% promo code to get a discount</p>
+                    <form class="form-container" action="">
+                        <input id="inputCode" type="text">
+                        <button type="button" onclick="promoCalculate()">Let's go!</button>
+                    </form>
+                    <p id="resultDiscount" class="result-discount"></p>
+                </article>
+            </article>
+        </section>
+        <section class="feature-section-container">
+            <section class="feature-section">
+                <div class="cell-container">
+                    <i class="fas fa-truck fa-5x"></i>
+                    <p>National deliveries</p>
+                </div>
+                <div class="cell-container">
+                    <i class="fas fa-id-card fa-5x"></i>
+                    <p>Get your VS card now</p>
+                </div>
+                <div class="cell-container">
+                    <i class="fas fa-box-open fa-5x"></i>
+                    <p>Immediate availability</p>
+                </div>
+                <div class="cell-container">
+                    <i class="fas fa-award fa-5x"></i>
+                    <p>Up to two-years warranty</p>
+                </div>
+            </section>
+        </section>
+        <article class="card-container">
+            <div class="card-container-one">
+                <img class="card-container-image" src="/images/foto1.jpg" alt="">
+                <p class="card-container-name">Oslo Sink Set + Raised Godai Cabinet</p>
+                <p class="card-container-price"><b>USD$118</b><del>USD$139</del><span>-15%</span></p>
+                <div class="card-container-buttons">
+                    <button>Shop</button>
+                    <button>More</button>
+                </div>
+            </div>
+            <div class="card-container-one">
+                <img class="card-container-image" src="/images/foto2.jpg" alt="">
+                <p class="card-container-name">Sink Set Siena+Furniture Viteli Soder/Mali</p>
+                <p class="card-container-price"><b>USD$102</b><del>USD$120</del><span>-15%</span></p>
+                <div class="card-container-buttons">
+                    <button>Shop</button>
+                    <button>More</button>
+                </div>
+            </div>
+            <div class="card-container-one">
+                <img class="card-container-image" src="/images/foto3.jpg" alt="">
+                <p class="card-container-name">Oslo Sink Set + Godai Raised Cube Furniture</p>
+                <p class="card-container-price"><b>USD$371</b><del>USD$436</del><span>-15%</span></p>
+                <div class="card-container-buttons">
+                    <button>Shop</button>
+                    <button>More</button>
+                </div>
+            </div>
+            <div class="card-container-one">
+                <img class="card-container-image" src="/images/foto4.jpg" alt="">
+                <p class="card-container-name">Aqua Washing Machine Set + Floor Rh Furniture</p>
+                <p class="card-container-price"><b>USD$293</b><del>USD$344</del><span>-15%</span></p>
+                <div class="card-container-buttons">
+                    <button>Shop</button>
+                    <button>More</button>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-first-column">
+                <p class="column-title">About us</p>
+                <p>NJ 07305, New York, USA</p>
+                <p>Phone: 123-456-7890</p>
+                <a href="#">support@vintagestudio.com</a>
+                <p>Open Hours: MN - ST: 8:00AM - 9:00PM</p>
+            </div>
+            <div class="second-column">
+                <p class="column-title">Contact</p>
+                <a href="#">Search</a>
+                <a href="#">Get in touch</a>
+                <a href="#">Shop</a>
+            </div>
+            <div class="third-column">
+                <p class="column-title">Account</p>
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+                <a href="#">My account</a>
+            </div>
+            <div class="footer-four-column">
+                <a href="#"><img src="/images/logo-small.png" alt="Vintage Studio Logo"></a>
+                <p>Subscribe to our newsleter. <br> Enter your email address.</p>
+                <div>
+                    <div class="search-bar-container">
+                        <button><i class="far fa-paper-plane"></i></button>
+                        <input type="text" name="footer-search" id="footer-search" placeholder="mail@example.com">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/javascript/script.js"></script>
+</body>
+</html>
